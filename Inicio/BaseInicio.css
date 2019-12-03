@@ -1,0 +1,190 @@
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    border-radius: 130px 130px 51px 51px;
+    -moz-border-radius: 130px 130px 51px 51px;
+    -webkit-border-radius: 130px 130px 51px 51px;
+    border: 6px solid rgb(158, 158, 158);
+    -webkit-box-shadow: 10px 29px 32px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 29px 32px -2px rgba(0,0,0,0.75);
+    box-shadow: 10px 29px 32px -2px rgba(0,0,0,0.75);
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 5px;
+    background-color: rgba(37, 34, 34, 0.3);
+    color: rgb(158, 158, 158);
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+}
+#cabecera{
+    font-family: 'Rajdhani', sans-serif;
+    position: relative;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#cabecera ul{
+    list-style-type: none;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+#cabecera ul li a{
+    text-decoration: none;
+    color:rgb(158, 158, 158);
+   
+}
+#colordecontenido{
+    background-color:  rgba(37, 34, 34, 0.3);
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    margin-left: 10px;
+    margin-right: 70px;
+    margin-bottom: 135px;
+    border-radius: 5px 150px 150px 5px;
+    -moz-border-radius: 5px 150px 150px 5px;
+    -webkit-border-radius: 5px 150px 150px 5px;
+    border: 5px double #000000;
+}
+#cabecera li{
+    
+    font-family: 'Rajdhani', sans-serif;;
+    font-size: 20px;
+    text-decoration: none;
+    grid-column-end: 2;
+    grid-row-end: 2;
+    padding: 10px;
+    color:rgb(158, 158, 158);
+    border-radius: 100px 100px 100px 100px;
+    -moz-border-radius: 100px 100px 100px 100px;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    border: 5px solid #000000;
+    background-color:rgba(37, 34, 34, 0.739);
+    margin-left: 30px;
+    margin-top: 2px;
+    margin-right: 25px;
+    width: 120px;
+}
+body{
+    background-image: url(../b95467615f84b7935f8cc31bb4c002bc.png);
+}
+#cabecera li:hover{
+    background-color: black;
+    color:white;
+}
+#inicio{
+    height: 215px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 2px 50px;
+}
+#inicio img{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    margin-top: -60px;
+}
+#inicio p{
+    grid-column-start: 4;
+    grid-row-start: 2;
+    font-family: 'Source Code Pro', monospace;
+    color:rgb(149, 139, 139);
+}
+#mensajeinicial{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    border-radius: 115px 115px 115px 115px;
+    -moz-border-radius: 115px 115px 115px 115px;
+    -webkit-border-radius: 115px 115px 115px 115px;
+    border: 5px groove #000000;
+    -webkit-box-shadow: 10px 38px 67px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 38px 67px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 38px 67px 0px rgba(0,0,0,0.75);
+    background-color: rgba(16, 231, 159, 0.329);
+}
+#mensajeinicial h2{
+    text-align: center;
+    font-size: 45px;
+}
+#mensajeinicial h3{
+    text-align: center;
+    margin-top: 75px;
+    font-size: 30px;
+}
+#iconos{ /*De aqui para abajo son las fotos*/
+    list-style-type:none;
+    display: flex;
+    flex-flow: column-reverse;
+    flex-direction: row-reverse;
+}
+#fotosli{
+    padding: 2px;
+}
+#contenido{
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template-rows: 175px;
+}
+#fotogmail {
+    opacity:.70;
+    padding:3px;
+}
+#fotogmail:hover {
+	opacity: 100;
+}
+#fototwitter {
+    opacity:.70;
+    padding:3px;
+}
+#fototwitter:hover {
+	opacity: 100;
+}
+#fotointragram {
+    opacity:.70;
+    padding:3px;
+}
+#fotointragram:hover {
+	opacity: 100;
+}
+#fotolinkelin {
+    opacity:.70;
+    padding:3px;
+}
+#fotolinkelin:hover {
+	opacity: 100;
+}
+#fotowhasap {
+    opacity:.70;
+    padding:3px;
+}
+#fotowhasap:hover {
+	opacity: 100;
+}
+#fotofacebook {
+    opacity:.70;
+    padding:3px;
+}
+#fotofacebook:hover {
+	opacity: 100;
+}
+header{
+    margin-bottom: 15px;
+    border-radius: 10px 10px 35px 35px;
+    -moz-border-radius: 10px 10px 35px 35px;
+    -webkit-border-radius: 10px 10px 35px 35px;
+    border: 3px solid #000000;
+    padding-bottom: -14px;
+    /* width: 10px; */
+    height: 85px;
+    background-color: rgba(65, 116, 99, 0.329);
+}
+header a{
+    text-decoration: none;
+    color:rgb(158, 18, 18);
+}
